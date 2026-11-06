@@ -41,7 +41,7 @@ app.use("/api/user" , privateCors, userRouter);
 app.use("/api/assistant" ,publicCors, assistantRouter);
 app.use("/api/billing" , privateCors , billingRouter)
 
-const PORT= process.env.PORT;
+const PORT= process.env.PORT || 8000;
 app.listen(PORT , ()=>{
     connectDB()
     console.log(`server is running on port localhost:${PORT}`)
