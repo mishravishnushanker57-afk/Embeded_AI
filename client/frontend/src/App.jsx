@@ -9,10 +9,8 @@ import Builder from './pages/Builder'
 import Billing from './pages/Billing'
 import axios from "axios"
 import {Toaster} from "react-hot-toast"
-
-
-export const ServerUrl = "http://localhost:8000"
-export const Client_Url= "http://localhost:5173"
+export const ServerUrl = "https://embeded-ai-backend.onrender.com"
+export const Client_Url = "https://embeded-ai-frontend.onrender.com"
 
 
 function App() {

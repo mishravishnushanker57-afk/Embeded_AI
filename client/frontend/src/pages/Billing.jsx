@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { FiCheck, FiCreditCard, FiClock, FiZap } from 'react-icons/fi'
 
-const ServerUrl = import.meta.env.VITE_SERVER_URL || 'http://localhost:8000'
+const ServerUrl = import.meta.env.VITE_SERVER_URL || 'https://embeded-ai-backend.onrender.com'
 
 const PLANS = [
   {
